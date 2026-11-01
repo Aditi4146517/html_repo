@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action>
+        Name:<input type="text" placeholder="user name" name="user name" value="john" required="true"><br>
+        Password:<input type="password"><br>
+        <input type="submit"><br>
+        Date:<input type="date"><br>
+        file:<input type="file"><br>
+        color:<input type="color"><br>
+        price range:<input type="range" min="0" max="100" value="50" step="10"><br>
+        button:<input type="button" value="click me"><br>
+        <label for="male">male</label>
+        <input type="radio" name="gender" value="male" id="male"><!--name should contain same value-->
+        <label for="female">female</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="other">other</label>
+        <input type="radio" name="gender" value="other" id="other"><br>
+
+        <label for="html">html:</label>
+        <input type="checkbox" name="languages" value="html" id="html" ><br>
+        <label for="cpp">cpp:</label>
+        <input type="checkbox" name="languages" value="cpp" id="cpp" ><br>
+        <label for="js">js:</label>
+        <input type="checkbox" name="languages" value="js" id="js" ><br>
+
+        <!--SELECT TAG (drop down+radio button)-->
+        <label for="country">select your country</label>
+        <select id="country" name="country">
+        <option value="india">india</option>
+        <option value="us">us</option>
+        <option value="uk">uk</option><br>
+        </select>
+
+        <textarea rows="4" cols="40">default text</textarea>
+       
+    </form>
+</body>
+</html>
